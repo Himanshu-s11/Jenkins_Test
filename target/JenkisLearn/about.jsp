@@ -7,6 +7,6 @@
 <title>About Me</title>
 </head>
 <body>
-<p>Welec ome to about page</p>
+<p>Welecome to about page</p>
 </body>
 </html>
