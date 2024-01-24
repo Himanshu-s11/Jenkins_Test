@@ -1,0 +1,18 @@
+pipeline{
+    agent any
+    
+    stages{
+        stage("compile"){
+           steps{
+              sh 'javac Main.java'
+           } 
+        }
+        
+         stage("test"){
+            steps{
+               sh "Main.java"
+           } 
+        }
+        
+    }
+}
